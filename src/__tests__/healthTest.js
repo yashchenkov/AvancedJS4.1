@@ -3,7 +3,7 @@ import healthFunc from '../healthfunc';
 test('expected healthy value test', () => {
   const character = {
     name: 'Маг',
-    health: 90
+    health: 90,
   };
   const expected = 'healthy';
   const received = healthFunc(character);
