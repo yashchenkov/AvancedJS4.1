@@ -1,1 +1,2 @@
-import health from './healthfunc.js'
+import health from './healthfunc';
+console.log(health);
